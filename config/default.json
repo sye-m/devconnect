@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://izuku:Naruto80@devconnect.lozfs.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecret"
+}
