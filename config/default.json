@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://izuku:Naruto80@devconnect.lozfs.mongodb.net/<dbname>?retryWrites=true&w=majority",
-    "jwtSecret": "mysecret"
+    "jwtSecret": "mysecret",
+    "githubClientId": "e7c2709d1edf4f71d564",
+    "githubClientSecret": "5f8c7d50be14bdd7f3812779f0b49416645c25ec"
 }
