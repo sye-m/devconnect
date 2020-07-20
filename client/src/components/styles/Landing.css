@@ -1,0 +1,25 @@
+.landing-container {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.landing-bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/images/landing.jpg');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: brightness(0.5);
+}
+
+.landing-description {
+    font-size: 2em;
+    color: white;
+}
+
+.landing-welcome {
+    z-index: 1;
+}

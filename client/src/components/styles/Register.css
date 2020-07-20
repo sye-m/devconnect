@@ -1,0 +1,11 @@
+.register-form {
+    width: 40%;
+    min-width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.register-form-title {
+    text-align: center;
+    font-size: 1.3em;
+}

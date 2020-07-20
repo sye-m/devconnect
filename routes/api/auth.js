@@ -3,7 +3,7 @@ const router = express.Router();
 const authenticate = require('../../middleware/authenticate');
 const User = require('../../models/User');
 
-// @GET api/users
+// @GET api/auth
 // @desc get users
 // Not protected
 router.get('/', authenticate, async(req, res) => {

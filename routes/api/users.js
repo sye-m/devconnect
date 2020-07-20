@@ -27,7 +27,6 @@ router.post('/', [
             return res.status(400).json({ errors: [{ msg: 'User is already registered' }] });
         }
 
-        console.log(req);
         const avatar = gravatar.url(email, {
             r: 'pg',
             s: '200',

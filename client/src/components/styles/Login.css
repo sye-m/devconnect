@@ -1,0 +1,11 @@
+.login-form {
+    width: 40%;
+    min-width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.login-form-title {
+    font-size: 1.3em;
+    text-align: center;
+}
