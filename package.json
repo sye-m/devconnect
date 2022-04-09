@@ -21,7 +21,7 @@
         "fetch": "^1.1.0",
         "gravatar": "^1.8.0",
         "jsonwebtoken": "^8.5.1",
-        "moment": "^2.27.0",
+        "moment": "^2.29.2",
         "mongoose": "^5.9.24",
         "request": "^2.88.2"
     },
