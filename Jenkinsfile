@@ -8,3 +8,4 @@ pipeline {
       echo "test"
   }
 }
+}
