@@ -1,7 +1,6 @@
 pipeline {
   agent any
   parameters {
-  string(name:'VERSION', defaultValue:'', description:'Version of the build')
   choice(name:'VERSION', choices:['1.0','1.1','1.2'], description:'Version of the build')
   booleanParam(name:'executeTests', defaultValue:false)
   }
@@ -9,7 +8,7 @@ pipeline {
     stage("build"){
       steps{
         
-      echo "build"
+        echo "build ${VERSION}"
       }
   }
     stage("test"){
